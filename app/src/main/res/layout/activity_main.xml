@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <!-- Пустое пространство для отступа в 100dp -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <!-- Пол -->
+
+    <RadioGroup
+        android:id="@+id/rg_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/rb_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female" />
+    </RadioGroup>
+
+    <!-- Курс (Spinner) -->
+    <EditText
+        android:id="@+id/et_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ФИО"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/sp_course"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <!-- Уровень сложности (SeekBar) -->
+    <SeekBar
+        android:id="@+id/sb_difficulty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="3"
+        android:progress="1" />
+
+    <!-- Дата рождения (CalendarView) -->
+
+    <!-- Кнопка отправки -->
+    <CalendarView
+        android:id="@+id/cv_birthdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register" />
+
+    <!-- Вывод данных -->
+
+    <!-- Знак зодиака (ImageView) -->
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result_placeholder" />
+
+    <ImageView
+        android:id="@+id/iv_zodiac"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HelloWorldApp</string>
+    <string name="male">Мужской</string>
+    <string name="female">Женский</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="result_placeholder">Результаты появятся здесь</string>
+</resources>
