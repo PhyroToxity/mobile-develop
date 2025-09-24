@@ -1,4 +1,4 @@
-# mobile-develop
-# mobile-develop
-# mobile-develop
-# mobile-develop
+# ИП-215 Каримов Максим
+# ИП-215 Сорокин Александр
+# ИП-215 Каримов Максим
+# ИП-215 Сорокин Александр
